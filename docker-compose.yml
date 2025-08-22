@@ -1,0 +1,52 @@
+# services:
+#   backend:
+#     build:
+#       context: .
+#       dockerfile: Src/Dockerfile
+#     container_name: backend
+#     ports:
+#       - "8000:8000"
+#     restart: always
+
+#   frontend:
+#     build:
+#       context: .
+#       dockerfile: Frontend/Dockerfile
+#     container_name: frontend
+#     ports:
+#       - "7860:7860"
+#     environment:
+#       - BASE_URL=http://backend:8000
+#     depends_on:
+#       - backend
+#     restart: always
+
+
+services:
+  backend:
+    build:
+      context: ./Src
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../DataBase:/app/DataBase
+      - ../Artifacts:/app/Artifacts
+      - ../models:/app/models
+    restart: always
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "7860:7860"
+    environment:
+      - BASE_URL=http://backend:8000
+    depends_on:
+      - backend
+    volumes:
+      - ../DataBase:/app/DataBase
+    restart: always

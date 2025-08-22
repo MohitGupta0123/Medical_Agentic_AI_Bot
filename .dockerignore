@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.dvc
+*.ipynb
+Secrets/
+# Frontend/
+Notebooks/
+Test/
+dvc_storage/

@@ -1,0 +1,29 @@
+2. Data Persistence & Monitoring
+Database Enhancements:
+Add logging table: interactions (store queries, responses, timestamps).
+Track doctor workload (count patients per doctor).
+
+Monitoring:
+Create an admin page (Streamlit) to view:
+Registered patients
+Doctor availability
+Medicine stock
+
+3. Summarization Improvements
+Replace placeholder summarization with Gemma summarization:
+Input: Patient details (name, reason, assigned doctor, visit history).
+Output: Concise medical summary.
+Where to modify:
+summarize_case_tool
+Add new FastAPI /summarize_case endpoint (already scaffolded).
+
+6. Advanced Features (Post-MVP)
+Agentic Add-ons:
+Auto-book medicine refill when stock is low.
+Auto-suggest follow-up appointments.
+Add patient history tracking (multiple visits).
+
+Analytics:
+Dashboard: # patients registered/day, medicine usage trends.
+LangGraph Migration:
+Replace LangChain Agent with LangGraph for more robust orchestration.

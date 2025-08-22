@@ -1,0 +1,16 @@
+# Ignore unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.ipynb
+.git
+.gitignore
+
+# Only include Streamlit frontend
+!App.py
+!config.py
+!pages/
+!Dockerfile
+!requirements.txt

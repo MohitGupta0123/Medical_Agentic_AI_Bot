@@ -1,0 +1,13 @@
+# Core
+pandas
+matplotlib
+
+# Frontend (Streamlit)
+streamlit
+streamlit-mic-recorder
+gTTS
+
+# Utilities
+requests
+
+huggingface_hub

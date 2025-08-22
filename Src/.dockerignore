@@ -1,0 +1,16 @@
+# Ignore everything except backend-relevant files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb
+*.log
+
+# Only include API and necessary logic
+!api/
+!agent/
+!rag/
+!services/
+!fastapi_app.py
+!Dockerfile
+!requirements.txt

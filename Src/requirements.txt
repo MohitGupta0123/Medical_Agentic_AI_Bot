@@ -1,0 +1,38 @@
+dvc
+
+# Core
+numpy
+pandas
+python-dotenv
+matplotlib
+nltk
+contractions
+
+# LLM / RAG
+langchain
+langchain_community
+sentence-transformers
+faiss-cpu
+transformers
+accelerate
+torch --index-url https://download.pytorch.org/whl/cu126
+
+# PDF Processing
+PyMuPDF
+camelot-py
+
+# Web Framework
+fastapi
+uvicorn
+psycopg[binary]
+
+# Utilities
+tqdm
+requests
+
+# Testing
+# pytest
+
+# Hugging Face Hub (for model downloads)
+huggingface_hub
+huggingface_hub[hf_xet]

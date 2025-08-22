@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.venv
+Secrets/.env
+
+# dvc Remote Storage
+dvc_storage
+
+# VSCode
+.vscode/
+/Data
