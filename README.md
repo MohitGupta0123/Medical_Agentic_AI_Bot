@@ -15,11 +15,11 @@
 <!-- Project Info Badges -->
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Issues](https://img.shields.io/github/issues/MohitGupta0123/Medical_Bot)
-![Last Commit](https://img.shields.io/github/last-commit/MohitGupta0123/Medical_Bot)
-![Repo Size](https://img.shields.io/github/repo-size/MohitGupta0123/Medical_Bot)
-<!-- ![Stars](https://img.shields.io/github/stars/MohitGupta0123/Medical_Bot)
-![Forks](https://img.shields.io/github/forks/MohitGupta0123/Medical_Bot) -->
+![Issues](https://img.shields.io/github/issues/MohitGupta0123/Medical_Agentic_AI_Bot)
+![Last Commit](https://img.shields.io/github/last-commit/MohitGupta0123/Medical_Agentic_AI_Bot)
+![Repo Size](https://img.shields.io/github/repo-size/MohitGupta0123/Medical_Agentic_AI_Bot)
+![Stars](https://img.shields.io/github/stars/MohitGupta0123/Medical_Agentic_AI_Bot)
+![Forks](https://img.shields.io/github/forks/MohitGupta0123/Medical_Agentic_AI_Bot)
 
 An end-to-end medical assistant that combines **RAG Q\&A**, **agentic workflows** (registration, appointment, medicines, summaries), and an **admin dashboard**.
 Frontend in **Streamlit**, backend in **FastAPI**, persistence with **SQLite/Supabase**, and embeddings via **SentenceTransformers** (offline compatible).
