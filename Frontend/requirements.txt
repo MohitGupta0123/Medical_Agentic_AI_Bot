@@ -11,4 +11,4 @@ gTTS
 requests
 
 huggingface_hub
-altair
+altair==4.2.2

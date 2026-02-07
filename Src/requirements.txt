@@ -37,4 +37,4 @@ requests
 huggingface_hub
 huggingface_hub[hf_xet]
 
-altair
+altair==4.2.2
