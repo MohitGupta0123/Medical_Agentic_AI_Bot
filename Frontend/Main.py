@@ -34,7 +34,7 @@ with left:
     st.write("🏠 Home – Enter your Hugging Face token and navigate to the Medical Assistant tools.")
     st.write("RAG answers, agent workflows, and admin dashboard all in one place.")
 with right:
-    st.image("https://img.icons8.com/color/96/medical-doctor.png", use_container_width=True)
+    st.image("https://img.icons8.com/color/96/medical-doctor.png", use_column_width=True)
 
 st.markdown("---")
 # -------------------------------
