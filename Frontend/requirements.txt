@@ -3,7 +3,8 @@ pandas
 matplotlib
 
 # Frontend (Streamlit)
-streamlit
+streamlit>=1.30
+altair>=5,<7
 streamlit-mic-recorder
 gTTS
 
@@ -11,4 +12,3 @@ gTTS
 requests
 
 huggingface_hub
-altair==4.2.2
