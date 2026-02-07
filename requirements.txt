@@ -40,3 +40,5 @@ requests
 # Hugging Face Hub (for model downloads)
 huggingface_hub
 huggingface_hub[hf_xet]
+
+altair
